@@ -1,0 +1,27 @@
+app simple {
+  wasp: {
+    version: "^0.15.2"
+  },
+  title: "GPUBIO",
+
+  client: {
+    rootComponent: import App from "@src/client/App",
+  }
+}
+
+//route RootRoute { path: "/", to: MainPage }
+//page MainPage {
+//  component: import { MainPage } from "@src/MainPage"
+//}
+
+
+route RootRoute { path: "/", to: DemoAppPage }
+page DemoAppPage {
+  component: import DemoAppPage from "@src/PDBSearchPage"
+}
+
+
+
+
+
+

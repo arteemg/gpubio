@@ -6,7 +6,7 @@ import { Dialog } from '@headlessui/react';
 import { BiLogIn } from 'react-icons/bi';
 import { AiFillCloseCircle } from 'react-icons/ai';
 import { HiBars3 } from 'react-icons/hi2';
-import logo from '../../static/logo.webp';
+import logo from '../../static/GBUPIO-cub_logo4.webp';
 //import DropdownUser from '../../../user/DropdownUser';
 //import { UserMenuItems } from '../../../user/UserMenuItems';
 import DarkModeSwitcher from '../DarkModeSwitcher';
@@ -18,7 +18,13 @@ export interface NavigationItem {
   to: string;
 }
 
-const NavLogo = () => <img className='h-8 w-8' src={logo} alt='Your SaaS App' />;
+const NavLogo = () => (
+  <img
+    className="'h-7 w-27" // Scales width to 25% of parent while keeping aspect ratio
+    src={logo}
+    alt="GPUBIO"
+  />
+);
 
 export default function AppNavBar({ navigationItems }: { navigationItems: NavigationItem[] }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -40,7 +46,7 @@ export default function AppNavBar({ navigationItems }: { navigationItems: Naviga
           >
             <NavLogo />
             {isLandingPage && (
-              <span className='ml-2 text-sm font-semibold leading-6 dark:text-white'>Your Saas</span>
+              <span className='ml-2 text-sm font-semibold leading-6 dark:text-white'></span>
             )}
           </WaspRouterLink>
         </div>
@@ -57,7 +63,7 @@ export default function AppNavBar({ navigationItems }: { navigationItems: Naviga
         <div className='hidden lg:flex lg:gap-x-12'>{renderNavigationItems(navigationItems)}</div>
         <div className='hidden lg:flex lg:flex-1 gap-3 justify-end items-center'>
           <ul className='flex justify-center items-center gap-2 sm:gap-4'>
-            <DarkModeSwitcher />
+
           </ul>
 
         </div>
@@ -84,7 +90,6 @@ export default function AppNavBar({ navigationItems }: { navigationItems: Naviga
               <div className='space-y-2 py-6'>{renderNavigationItems(navigationItems, setMobileMenuOpen)}</div>
 
               <div className='py-6'>
-                <DarkModeSwitcher />
               </div>
             </div>
           </div>

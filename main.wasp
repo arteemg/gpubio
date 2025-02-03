@@ -9,16 +9,24 @@ app simple {
   }
 }
 
-//route RootRoute { path: "/", to: MainPage }
-//page MainPage {
-//  component: import { MainPage } from "@src/MainPage"
-//}
-
-
-route RootRoute { path: "/", to: DemoAppPage }
-page DemoAppPage {
-  component: import DemoAppPage from "@src/PDBSearchPage"
+route RootRoute { path: "/", to: LandingPage }
+page LandingPage {
+  component: import LandingPage  from "@src/landing-page/LandingPage"
 }
+
+
+route HumanProteomeRoute { path: "/humanproteome", to: HumanProteomePage }
+page HumanProteomePage {
+  component: import HumanProteomePage from "@src/PDBSearchPage"
+}
+
+
+route AboutUsRoute { path: "/aboutus", to: AboutUsPage }
+page AboutUsPage {
+  component: import AboutUsPage from "@src/AboutUsPage"
+}
+
+
 
 
 

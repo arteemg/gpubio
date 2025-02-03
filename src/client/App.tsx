@@ -6,6 +6,7 @@ import { routes } from 'wasp/client/router';
 import { Outlet, useLocation } from 'react-router-dom';
 //import { useAuth } from 'wasp/client/auth';
 import { useIsLandingPage } from './hooks/useIsLandingPage';
+import { myNavigationItems } from './contentSections';
 
 /**
  * use this component to wrap all child components
@@ -38,6 +39,7 @@ export default function App() {
           <Outlet />
         ) : (
           <>
+            <NavBar navigationItems={myNavigationItems} />
             <div className='mx-auto max-w-7xl sm:px-6 lg:px-8'>
               <Outlet />
             </div>

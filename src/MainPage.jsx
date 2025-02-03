@@ -1,4 +1,4 @@
-import waspLogo from './waspLogo.png'
+import mylogo from '../src/client/static/gpu_icon.png'
 import './Main.css'
 
 export const MainPage = () => {
@@ -6,7 +6,7 @@ export const MainPage = () => {
     <div className="container">
       <main>
         <div className="logo">
-          <img src={waspLogo} alt="wasp" />
+          <img src={mylogo} alt="gpubio" />
         </div>
 
         <h2 className="welcome-title">

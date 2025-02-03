@@ -1,0 +1,102 @@
+[
+    {
+        "resid": 1,
+        "restype": "ALA",
+        "pbind": 0.85
+    },
+    {
+        "resid": 2,
+        "restype": "GLY",
+        "pbind": 0.92
+    },
+    {
+        "resid": 3,
+        "restype": "LEU",
+        "pbind": 0.78
+    },
+    {
+        "resid": 4,
+        "restype": "SER",
+        "pbind": 0.65
+    },
+    {
+        "resid": 5,
+        "restype": "THR",
+        "pbind": 0.89
+    },
+    {
+        "resid": 6,
+        "restype": "VAL",
+        "pbind": 0.71
+    },
+    {
+        "resid": 7,
+        "restype": "ILE",
+        "pbind": 0.83
+    },
+    {
+        "resid": 8,
+        "restype": "PRO",
+        "pbind": 0.94
+    },
+    {
+        "resid": 9,
+        "restype": "MET",
+        "pbind": 0.77
+    },
+    {
+        "resid": 10,
+        "restype": "CYS",
+        "pbind": 0.88
+    },
+    {
+        "resid": 11,
+        "restype": "ASP",
+        "pbind": 0.80
+    },
+    {
+        "resid": 12,
+        "restype": "GLU",
+        "pbind": 0.74
+    },
+    {
+        "resid": 13,
+        "restype": "LYS",
+        "pbind": 0.91
+    },
+    {
+        "resid": 14,
+        "restype": "ARG",
+        "pbind": 0.82
+    },
+    {
+        "resid": 15,
+        "restype": "HIS",
+        "pbind": 0.79
+    },
+    {
+        "resid": 16,
+        "restype": "PHE",
+        "pbind": 0.93
+    },
+    {
+        "resid": 17,
+        "restype": "TYR",
+        "pbind": 0.87
+    },
+    {
+        "resid": 18,
+        "restype": "TRP",
+        "pbind": 0.95
+    },
+    {
+        "resid": 19,
+        "restype": "ASN",
+        "pbind": 0.68
+    },
+    {
+        "resid": 20,
+        "restype": "GLN",
+        "pbind": 0.72
+    }
+]

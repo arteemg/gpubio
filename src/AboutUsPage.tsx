@@ -14,7 +14,7 @@ export default function AboutUsPage() {
                 <div className='mx-auto max-w-7xl px-6 lg:px-8'>
                     <div className='mx-auto max-w-2xl text-center'>
                         <p className='text-lg text-gray-900 dark:text-white'>
-                            For contact inquiries, please email: <strong>artem@gpubio.xyz</strong>
+                            For contact inquiries, please emai: <strong>artem@gpubio.xyz</strong>
                         </p>
                     </div>
 
